@@ -1,0 +1,141 @@
+/* Body styling - fulfilling user stories 6, 7, 8, 9 */
+body {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 80vw;
+    min-height: calc(100vh - 100px);
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+/* Intro section */
+.intro {
+    margin: 1.5rem 0;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.intro-description {
+    font-size: 1.1rem;
+    color: #555;
+    flex: 1;
+}
+
+.event-timing {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+    flex: 1;
+}
+
+.event-timing p {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.bold {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Call to action button */
+.cta {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #2980b9;
+}
+
+/* Main content */
+main {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling - fulfilling user story 11 */
+section {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fafafa;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-top: 0;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section ul li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+section ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* Horizontal rule styling - fulfilling user story 10 and 11 */
+hr {
+    width: 70%;
+    border: none;
+    border-top: 2px solid #ddd;
+    margin: 2rem auto;
+}
